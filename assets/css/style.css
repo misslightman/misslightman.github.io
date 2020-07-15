@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    
+    background: #d5eafa;
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
@@ -24,7 +24,7 @@ body.home {
 .header {
     background: linear-gradient(90deg, rgba(40,139,203,1) 0%, rgba(111,188,255,1) 100%);
     color: #ffffff;
-    padding: 0 2rem;
+    padding: 1rem;
     text-align: center;
 }
 
