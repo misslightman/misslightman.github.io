@@ -1,23 +1,30 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
   <head>
     <title>MissLightman.tech</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="page-header" role="banner">
-      <h1 class="project-name">MissLightman<span class="project-domain">.tech<span></h1>
-      <h2 class="project-tagline">Teamwork makes the dream work.</h2>
+    <header class="header" role="banner">        
+        <h1 class="header-title">Miss Lightman<span class="header-tld">.tech<span></h1>
+        <p class="header-quote">Teamwork makes the dream work</p>
     </header>
 
-    <main id="content" class="main-content" role="main">
-      {{ content }}
+    <nav class="nav">
+        <a href="/prep" class="nav-item prep">P</a>
+        <a href="/one" class="nav-item one">1</a>
+        <a href="/four" class="nav-item four">4</a>
+        <a href="/five" class="nav-item five">5</a>
+        <a href="/six" class="nav-item six">6</a>
+    </nav>
 
-      <footer class="site-footer"><a href="/">Home</a></footer>
+    <main id="content" class="content" role="main">
+            
     </main>
+
+    <footer class="footer"><a href="#">Home</a></footer>
   </body>
 </html>
