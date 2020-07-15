@@ -1,8 +1,152 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+* {
+    box-sizing: border-box;
+}
 
-.project-domain {
-  opacity: 0.7;
+body {
+    background: linear-gradient(90deg, rgba(40,139,203,1) 0%, rgba(111,188,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+
+.header {
+    color: #ffffff;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.header-title {
+    color: #ffffff;
+    font-family: 'Amatic SC', 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.header-tld {
+    opacity: 0.75;
+}
+
+.header-quote {
+    font-weight: 300;
+    margin: 0 auto;
+    opacity: 0.75;
+}
+
+.nav {
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    align-items: center;
+    border: 2px solid #6DBBFE;
+    border-radius: 10rem;
+    color: #ffffff;
+    display: flex;
+    font-weight: 600;            
+    justify-content: center;
+    margin: 0 0.25rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-item.prep {background-color: #FF4549;}
+.nav-item.one {background-color: #194EE8;}
+.nav-item.four {background-color: #53524F;}
+.nav-item.five {background-color: #05A41E;}
+.nav-item.six {background-color: #9A0EFF;}
+
+.nav-item.prep:hover,
+.nav-item.one:hover,
+.nav-item.four:hover,
+.nav-item.five:hover,
+.nav-item.six:hover {border-color: #def0ff;}
+
+.footer {
+    display: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 42em) {
+
+    .header-title {
+        font-size: 3rem;
+    }
+
+    .header-quote {
+        font-size: 0.8rem;
+        max-width: 80vw;
+    }
+
+    .nav-item {
+        font-size: 0.8rem;
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .content {
+        padding: 2rem 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 64em) and (min-width: 42em) {
+
+    .header-title {
+        font-size: 4rem;
+    }
+
+    .header-quote {
+        font-size: 1rem;
+        max-width: 70vw;
+    }
+
+    .nav-item {
+        font-size: 1rem;
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .content {
+        padding: 2rem 4rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 64em) {
+
+    .header-title {
+        font-size: 5rem;
+    }
+
+    .header-quote {
+        font-size: 1.2rem;
+        max-width: 60vw;
+    }
+
+    .nav-item {
+        font-size: 1.2rem;
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .content {
+        max-width: 64rem;
+        padding: 2rem 6rem;
+        margin: 0 auto;
+        font-size: 1.1rem;
+    }
 }
