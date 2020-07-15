@@ -104,6 +104,7 @@ body.home {
     }
 
     .content {
+        display: block;
         font-size: 1rem;
         padding: 0 2rem;
     }
