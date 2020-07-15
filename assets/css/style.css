@@ -10,14 +10,15 @@ body {
     
     display: flex;
     flex-direction: column;
-    font-family: 'Open Sans', sans-serif;    
-    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%; 
+    justify-content: top;
     margin: 0;
 }
 
 body.home {
     background: linear-gradient(90deg, rgba(40,139,203,1) 0%, rgba(111,188,255,1) 100%);
-    height: 100%;
+    justify-content: center;
 }
 
 .header {
