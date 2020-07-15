@@ -24,7 +24,6 @@ body.home {
 .header {
     background: linear-gradient(90deg, rgba(40,139,203,1) 0%, rgba(111,188,255,1) 100%);
     color: #ffffff;
-    margin-bottom: 2rem;
     padding: 1rem;
     text-align: center;
 }
