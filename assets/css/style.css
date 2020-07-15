@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     height: 100%; 
-    justify-content: top;
+    justify-content: flex-start;
     margin: 0;
 }
 
@@ -86,11 +86,6 @@ body.home {
 
 }
 
-.footer {
-    display: none;
-    text-align: center;
-}
-
 @media screen and (max-width: 42em) {
 
     .header-title {
@@ -109,7 +104,6 @@ body.home {
     }
 
     .content {
-        padding: 2rem 1rem;
         font-size: 1rem;
     }
 }
@@ -132,7 +126,6 @@ body.home {
     }
 
     .content {
-        padding: 2rem 4rem;
         font-size: 1.1rem;
     }
 }
@@ -155,9 +148,6 @@ body.home {
     }
 
     .content {
-        max-width: 64rem;
-        padding: 2rem 6rem;
-        margin: 0 auto;
         font-size: 1.1rem;
     }
 }
