@@ -52,8 +52,7 @@ body.home {
     display: flex;
     justify-content: center;
     list-style: none;
-    margin-bottom: 1rem;
-    padding: 0 1rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
 .nav-item {
@@ -97,7 +96,7 @@ body.home {
     }
     
     .nav {
-        margin-top: 0;
+        padding-top: 0;
     }
 
     .nav-item {
@@ -125,7 +124,7 @@ body.home {
     }
     
     .nav {
-        margin-top: 0.5rem;   
+        padding-top: 0.5rem;
     }
 
     .nav-item {
@@ -152,7 +151,7 @@ body.home {
     }
     
     .nav {
-        margin-top: 1rem;   
+        padding-top: 1rem;
     }
 
     .nav-item {
