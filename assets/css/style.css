@@ -83,7 +83,7 @@ body.home {
 .nav-item.six:hover {border-color: #def0ff;}
 
 .content {
-
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 42em) {
@@ -105,6 +105,7 @@ body.home {
 
     .content {
         font-size: 1rem;
+        padding: 0 2rem;
     }
 }
 
@@ -127,6 +128,7 @@ body.home {
 
     .content {
         font-size: 1.1rem;
+        width: 36rem;
     }
 }
 
@@ -148,6 +150,7 @@ body.home {
     }
 
     .content {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        width: 48rem;
     }
 }
